@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="vue.js"></script>
+
+
+<div id="vue-app">
+	<p>{{ message }}<p>
+	<p>{{ message }}<p>
+	<p>{{ message }}<p>
+
+	<input v-model="message">
+
+	<span v-if="seen">Acá ta</span>
+	<span v-else="seen">No taaaaa</span>
+
+	<ol>
+		<li v-for="todo in autos">
+			{{todo}}
+		</li>
+	</ol>
+	<button @click=""></button>
+</div>
+
+
+</html>

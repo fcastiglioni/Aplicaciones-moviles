@@ -1,0 +1,115 @@
+div#display{
+    width: 100%;
+    background-color: #e2e5e4;
+    height: 15ch;
+    border-radius: 10%;
+    text-align:end;
+    font-family: candara;
+    }
+body{
+    width: 15%;
+    padding: 10px;
+}
+.calculadora {
+    height: 490px;
+    width: 240px;
+    background-color: #f8faf0;
+    padding: 2px;
+    padding-right: 1px;
+    border-radius: 32px;
+    box-shadow: 5px 4px 0px 2px #00000033;
+}
+button.simbolo{
+    color: black;
+    background-color: #f8faf0;
+    border: none;
+    border-radius: 30%;
+    font-size: 14px;
+    margin: 4px 2px;
+    padding: 20 px;
+    text-align: center;
+    width: 6ch;
+    height: 3ch;
+}
+button.numero{
+    background-color: #e2e5e4;
+    border: none;
+    border-radius: 40%;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 6ch;
+    height: 5ch;
+    float: left;
+}
+
+
+
+button.numero-AC{
+    background-color: #32e28a;
+    border: none;
+    border-radius: 40%;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 6ch;
+    height: 5ch;
+    float: left;
+}
+button.operador{
+    background-color:  #96e8f3ec;
+    border: none;
+    border-radius: 40%;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 6ch;
+    height: 5ch;
+    float: left;
+}
+
+a#guión{
+    position: static ;
+    margin-left: 7%;
+    margin-top: 60px;
+    text-align: center;
+    font-size: larger;
+}
+
+button.numero:active{
+    background-color: gray;
+}
+button.operador:active{
+    background-color: #4e7980ec;
+}
+button.numero-AC:active{
+    background-color: #27b36dec;
+}
+button.numero-igual:active{
+    background-color: #79a7c5ec;
+}
+button.simbolo:active{
+    background-color: gray;
+}
+
+#valor-actual {
+    font-size: 1.5em;
+    
+}
+
+#valor-anterior {
+    font-size: 2em;
+}
+
